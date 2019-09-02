@@ -44,7 +44,7 @@ def apply_coupons(cart, coupons)
     c_num = coupon[:num]
     
     # If cart has item & coupon && item count >= num of coupons
-    if cart.include?(c_name) #&& cart[c_name][:count] >= c_num
+    if cart.include?(c_name) && cart[c_name][:count] >= c_num
       
       puts "This should print"
       
