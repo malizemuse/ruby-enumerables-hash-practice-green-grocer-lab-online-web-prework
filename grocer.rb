@@ -35,7 +35,6 @@ def apply_coupons(cart, coupons)
   # If there are no coupons, break and return cart
   return cart if coupons == []
 
-
   # Create new_cart var, set it equal to cart, and make changes
   new_cart = cart
 
