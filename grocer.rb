@@ -11,8 +11,6 @@ def consolidate_cart(cart)
       
       new_cart[item] = descr
       
-      end
-      
     end
     
   end
