@@ -39,7 +39,6 @@ def apply_coupons(cart, coupons)
     # If cart has item & coupon && item count >= num of coupons
     if cart.include?(c_name) && cart[c_name][:count] >= c_num
       
-      puts "This should print"
       
       # Subtract item count in cart by num of coupons 
       new_cart[c_name][:count] -= c_num
