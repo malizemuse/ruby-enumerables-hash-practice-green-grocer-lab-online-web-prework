@@ -123,7 +123,6 @@ end
 
 cart_array = [
   {"AVOCADO" => {:price => 3.00, :clearance => true }},
-  {"AVOCADO" => {:price => 3.00, :clearance => true }},
   {"KALE"    => {:price => 3.00, :clearance => false}}
 ]
 
