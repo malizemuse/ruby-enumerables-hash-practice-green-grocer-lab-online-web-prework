@@ -74,7 +74,10 @@ end
 # Method. apply_clearance
 def apply_clearance(cart)
 
+  # Create new_cart hash, set equal to cart, in order to make changes to orig
   new_cart = cart
+
+  # For each item 
   cart.each do |name, hash|
       if hash[:clearance] #if clearance is true, take 20% off
         new_cart[name][:price] = (cart[name][:price] * 0.8).round(2)
