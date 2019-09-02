@@ -100,12 +100,13 @@ def checkout(cart, coupons)
   # Create total var for total price
   total = 0
 
-  
+  # Add up all item prices for total
   new_cart.each do |name, hash|
     total += (hash[:price] * hash[:count])
   end
 
-if total >= 100
+  # If total price is greater than $100, take 10% off
+  if total >= 100
     total *= 0.9
   end
 
