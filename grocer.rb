@@ -122,7 +122,7 @@ cart_array = [
   {"KALE"    => {:price => 3.00, :clearance => false, :count => 1}}
 ]
 
-puts cart_hash = consolidate_cart(cart_array)
+cart_hash = consolidate_cart(cart_array)
 
 
 coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.00}]
