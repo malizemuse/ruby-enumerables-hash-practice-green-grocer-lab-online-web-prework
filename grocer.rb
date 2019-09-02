@@ -48,7 +48,6 @@ def apply_coupons(cart, coupons)
       
       puts "This should print"
       
-      =begin
       # Subtract item count in cart by num of coupons 
       new_cart[c_name][:count] -= c_num
        
