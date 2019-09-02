@@ -31,6 +31,8 @@ end
 
 # Method. apply_coupons
 def apply_coupons(cart, coupons)
+  
+  puts "This should print"
 
   # If there are no coupons, break and return cart
   return cart if coupons == []
