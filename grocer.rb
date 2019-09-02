@@ -122,8 +122,8 @@ end
 ## Scrap Code
 
 cart_array = [
-  {"AVOCADO" => {:price => 3.00, :clearance => true }},
-  {"KALE"    => {:price => 3.00, :clearance => false}}
+  {"AVOCADO" => {:price => 3.00, :clearance => true, :count => 3 }},
+  {"KALE"    => {:price => 3.00, :clearance => false, : count => }}
 ]
 
 cart_hash = consolidate_cart(cart_array)
