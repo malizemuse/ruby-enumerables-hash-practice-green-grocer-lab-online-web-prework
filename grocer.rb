@@ -62,6 +62,9 @@ def apply_coupons(cart, coupons)
           :clearance => new_cart[c_name][:clearance],
           :count => 1
         }
+        
+        puts "This should NOT print"
+        
       end
       
     end
