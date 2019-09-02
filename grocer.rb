@@ -88,7 +88,7 @@ end
 # Method. checkout
 def checkout(cart, coupons)
 
-  #call the consolidate to get the count item first
+  # Consolidate cart array into cart hash
   new_cart = consolidate_cart(cart)
   #apply coupon to the new cart
   apply_coupons(new_cart, coupons)
