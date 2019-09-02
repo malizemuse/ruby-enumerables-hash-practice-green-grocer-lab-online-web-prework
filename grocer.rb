@@ -50,7 +50,7 @@ def apply_coupons(cart, coupons)
       
       # Subtract item count in cart by num of coupons 
       new_cart[c_name][:count] -= c_num
-       
+      
       # If item "W/ COUPON" exists, increment count by 1
       if new_cart.has_key?("#{c_name} W/COUPON")
         new_cart["#{c_name} W/COUPON"][:count] += 1
