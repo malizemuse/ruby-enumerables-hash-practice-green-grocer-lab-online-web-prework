@@ -43,6 +43,8 @@ def apply_coupons(cart, coupons)
     c_name = coupon[:item]
     c_num = coupon[:num]
     
+    puts cart[c_name][:count]
+    
     # If cart has item & coupon && item count >= num of coupons
     if cart.include?(c_name) && cart[c_name][:count] >= c_num
       
