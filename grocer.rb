@@ -31,11 +31,11 @@ end
 
 # Method. apply_coupons
 def apply_coupons(cart, coupons)
-  
-  puts "This should print"
 
   # If there are no coupons, break and return cart
   return cart if coupons == []
+
+  puts "This should print"
 
   # Create new_cart var, set it equal to cart, and make changes
   new_cart = cart
