@@ -90,7 +90,8 @@ def checkout(cart, coupons)
 
   # Consolidate cart array into cart hash
   new_cart = consolidate_cart(cart)
-  #apply coupon to the new cart
+  
+  # Apply coupons to cart array
   apply_coupons(new_cart, coupons)
   #apply clearance after discount from coupon
   apply_clearance(new_cart)
