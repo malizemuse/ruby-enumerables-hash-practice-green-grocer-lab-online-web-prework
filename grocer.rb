@@ -83,6 +83,7 @@ def apply_clearance(cart)
         new_cart[name][:price] = (cart[name][:price] * 0.8).round(2)
       end
   end
+  
   new_cart #if not, just return the same cart
 
 end
