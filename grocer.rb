@@ -91,12 +91,16 @@ def checkout(cart, coupons)
   # Consolidate cart array into cart hash
   new_cart = consolidate_cart(cart)
   
-  # Apply coupons to cart array
+  # Apply coupons to cart
   apply_coupons(new_cart, coupons)
-  #apply clearance after discount from coupon
+  
+  # Apply clearance to cart
   apply_clearance(new_cart)
 
-total = 0
+  # Create total var for total price
+  total = 0
+
+  
   new_cart.each do |name, hash|
     total += (hash[:price] * hash[:count])
   end
