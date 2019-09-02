@@ -129,7 +129,7 @@ end
 ## Scrap Code
 
 cart_array = [
-  {"AVOCADO" => {:price => 3.00, :clearance => true, :count => 3 }},
+  {"AVOCADO" => {:price => 3.00, :clearance => true, :count => 3}},
   {"KALE"    => {:price => 3.00, :clearance => false, :count => 1}}
 ]
 
