@@ -9,14 +9,7 @@ def consolidate_cart(cart)
     # Within each element (hash) is a hash with a key and a value.
     hash.each do |item, descr|
       
-      # If the item exists, increment count by 1
-      if new_cart[item]
-        new_cart[item][:count] += 1
-        
-      # Else add item, descr, & count = 1 to the new_cart hash
-      else
-        new_cart[item] = descr
-        new_cart[item][:count] = 1
+      new_cart[item] = descr
       
       end
       
